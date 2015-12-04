@@ -72,7 +72,7 @@ private ProgressBar spinner;
             {
                 return getString(R.string.no_connection);
             }
-            
+
             if(myApiService == null) {  // Only do this once
                 MyApi.Builder builder = new MyApi.Builder(AndroidHttp.newCompatibleTransport(), new AndroidJsonFactory(), null)
                         .setRootUrl("https://builditbigger-1137.appspot.com/_ah/api/");

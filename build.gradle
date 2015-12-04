@@ -17,7 +17,7 @@ allprojects {
         jcenter()
     }
 }
-
+//it took a lot of digging on the forums to figure this part out.
 task runAllAndroidTests (dependsOn: [":jokebackend:appengineRun", ":app:connectedAndroidTest", ":jokebackend:appengineStop"]) {
     evaluationDependsOn ":jokebackend"
 
