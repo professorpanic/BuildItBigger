@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JokePasser</string>
+    <string name="missing_joke">Comedy not found.</string>
+    <string name="action_settings">Settings</string>
+</resources>
